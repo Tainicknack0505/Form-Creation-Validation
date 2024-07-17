@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             dataContainer.appendChild(userList);
         } catch (error) {
-            dataContainer.innerHTML = 'Failed to lead user data.';
+            dataContainer.innerHTML = 'Failed to load user data.';
         }
     }
     fetchUserData();
